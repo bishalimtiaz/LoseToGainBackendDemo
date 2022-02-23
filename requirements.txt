@@ -1,0 +1,11 @@
+fastapi==0.70.0
+uvicorn[standard]
+pydantic~=1.8.2
+SQLAlchemy~=1.4.25
+python-multipart
+mysqlclient
+passlib~=1.7.4
+bcrypt
+python-jose[cryptography]
+google-api-python-client
+facebook-sdk
