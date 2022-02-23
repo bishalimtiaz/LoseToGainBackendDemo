@@ -50,7 +50,7 @@ def googleLogin(access_token: str, db: Session, response: Response):
                 'access_token': access_token,
                 'token_type': "bearer",
                 'user_id': new_end_user.id,
-                'user': end_user_schema.ShowEndUser.parse_obj(vars(new_end_user))
+                'user': end_user_schema.ShowEndUser.parse_obj(vars(new_end_user ))
             }
 
         else:
